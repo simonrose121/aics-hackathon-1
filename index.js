@@ -85,8 +85,12 @@ async function main() {
     Generate practice SATs exam questions for key stage 2 English grammar punctuation and spelling questions based on the following content:
     ${JSON.stringify(sta)}
 
+    Focusing specifically on the 'content' fields of the elements, and ensuring that the questions are designed to help students prepare for the SATs exams.
+
     To meet the following National Curriculum standards:
     ${JSON.stringify(nc)}
+
+    Focusing on the 'content' fields of the elements, and taxonomies that are relevant to grammar, punctuation and spelling.
 
     Structure it as an exam-style format, including multiple-choice, short-answer, and applied-writing questions.
   `
@@ -121,7 +125,7 @@ async function main() {
 
     Identify any gaps in coverage and provide suggestions for improvement.
 
-    Score them both out of 100.
+    Score them both out of 100 for coverage, accuracy, and relevance.
 
     Not using content store:
     ${chatCompletion.choices[0].message.content}
