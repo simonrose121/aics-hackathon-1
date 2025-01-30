@@ -81,9 +81,6 @@ async function main() {
   const sta = await fetchSTAStandards();
   const nc = await fetchNationalCurriculum();
 
-  console.log("sta:", sta);
-  console.log("nc:", nc);
-
   const prompt = `
     Generate practice SATs exam questions for key stage 2 English grammar punctuation and spelling questions based on the following content:
     ${JSON.stringify(sta)}
