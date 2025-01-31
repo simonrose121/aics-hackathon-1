@@ -9,6 +9,9 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@aws-sdk/client-bedrock": "^3.738.0",
+		"@aws-sdk/client-bedrock-runtime": "^3.738.0",
+		"dotenv": "^16.4.7",
 		"openai": "^4.81.0"
 	}
 }
