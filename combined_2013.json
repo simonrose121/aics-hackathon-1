@@ -1,0 +1,1096 @@
+[
+  {
+    "questions": [
+      {
+        "number": 1,
+        "type": "multiple_choice",
+        "instructions": "Tick one word to complete the sentence below.",
+        "text": "The police confirmed that there were several ______________ responsible for the crime.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "thief",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "thieves",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "thiefes",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "thiefs",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "type": "multiple_choice",
+        "instructions": "Tick one preposition to complete both sentences.",
+        "text": "Which preposition would be best to complete both sentences? The boy took a sandwich _______ his lunchbox. The postcard was _______ my uncle.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "with",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "beside",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "near",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "from",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "type": "rewrite_text",
+        "instructions": "Copy the sentence below. Add any missing full stops or capital letters.",
+        "text": "it went into the water and made a terrible splash",
+        "marks": 1,
+        "original_text": "it went into the water and made a terrible splash",
+        "instruction": "Add missing punctuation.",
+        "correct_rewrites": [
+          {
+            "original": "it went into the water and made a terrible splash",
+            "rewrite": "It went into the water and made a terrible splash."
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "type": "multiple_choice",
+        "instructions": "Tick one box to show where the missing question mark should go.",
+        "text": "\"How are you feeling today\" asked the nurse.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "After 'today'",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "After 'asked'",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "After 'nurse'",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "After 'How'",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "type": "matching_pairs",
+        "instructions": "Put a tick in each row to show whether the sentence is a statement or a command.",
+        "text": "Identify whether each sentence is a statement or a command.",
+        "marks": 1,
+        "left_items": [
+          "Get the dustpan and brush, but be careful not to cut yourself.",
+          "Arrest that man!",
+          "At 4:30am, the intruder was arrested by six policemen."
+        ],
+        "right_items": [
+          "Statement",
+          "Command"
+        ],
+        "correct_pairs": [
+          {
+            "left": "Get the dustpan and brush, but be careful not to cut yourself.",
+            "right": "Command"
+          },
+          {
+            "left": "Arrest that man!",
+            "right": "Command"
+          },
+          {
+            "left": "At 4:30am, the intruder was arrested by six policemen.",
+            "right": "Statement"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "type": "multiple_choice",
+        "instructions": "Tick one box to show the pair of pronouns that completes the sentence below.",
+        "text": "The tins of beans were on such a high shelf that __________ had to ask someone to help __________.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "he him",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "she his",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "they our",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "him them",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "type": "multiple_choice",
+        "instructions": "Tick one box.",
+        "text": "Which word shows what Ricky did? Ricky shouted loudly so that his friends could hear him.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "Ricky",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "shouted",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "loudly",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "friends",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "type": "multiple_choice",
+        "instructions": "Tick one word or phrase to complete the sentence below.",
+        "text": "__________, we missed the bus and had to walk home in the rain.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "Unfortunate",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "Unfortunates",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "Most unfortunate",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "Unfortunately",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "type": "short_free_text",
+        "instructions": "Write a suitable question to fit each answer.",
+        "text": "Below are some answers to questions. Write a suitable question to fit each answer.",
+        "marks": 2,
+        "expected_answer": [
+          "When do you ride your bike?",
+          "What do you do every Saturday morning?"
+        ],
+        "marking_criteria": [
+          "Accept any appropriate question.",
+          "The question should logically fit the given answer."
+        ]
+      },
+      {
+        "number": 10,
+        "type": "multiple_choice",
+        "instructions": "Tick two boxes to show where the missing commas should go.",
+        "text": "Cheetahs tigers jaguars and leopards are all known as \u2018big cats\u2019.",
+        "marks": 1,
+        "allow_multiple_select": true,
+        "options": [
+          {
+            "label": "A",
+            "text": "After 'Cheetahs'",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "After 'tigers'",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "After 'jaguars'",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "After 'leopards'",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "questions": [
+      {
+        "number": 31,
+        "type": "rewrite_text",
+        "text": "Rewrite the sentence below in the present tense.",
+        "marks": 1,
+        "original_text": "Tom baked a cake.",
+        "instruction": "Rewrite in the present tense.",
+        "correct_rewrites": [
+          {
+            "original": "Tom baked a cake.",
+            "rewrite": "Tom bakes a cake."
+          }
+        ]
+      },
+      {
+        "number": 32,
+        "type": "fill_in_blanks",
+        "text": "Add a suffix to this word to make an adjective.",
+        "marks": 1,
+        "sentence_with_blanks": "fear ____________",
+        "answers": [
+          {
+            "position": 1,
+            "text": "fearless"
+          }
+        ]
+      },
+      {
+        "number": 33,
+        "type": "select_words",
+        "text": "Circle the two words that show a command in the passage below.",
+        "marks": 1,
+        "passage": "Ring the emergency services. Tell them to contact the fire brigade urgently. Some residents have already had to leave their houses.",
+        "words_required": 2,
+        "correct_words": [
+          {
+            "position": 1,
+            "word": "Ring"
+          },
+          {
+            "position": 2,
+            "word": "Tell"
+          }
+        ]
+      },
+      {
+        "number": 34,
+        "type": "select_words",
+        "text": "Underline the subordinate clause in each sentence below.",
+        "marks": 2,
+        "passage": "When she was standing next to her brother, Anita looked very tall. Even though he had little patience, Robert enjoyed chess. Sue\u2019s skills were good although she had not been playing for long. They finished the walk, which seemed never-ending.",
+        "words_required": 4,
+        "correct_words": [
+          {
+            "position": 1,
+            "word": "When she was standing next to her brother"
+          },
+          {
+            "position": 2,
+            "word": "Even though he had little patience"
+          },
+          {
+            "position": 3,
+            "word": "although she had not been playing for long"
+          },
+          {
+            "position": 4,
+            "word": "which seemed never-ending"
+          }
+        ]
+      },
+      {
+        "number": 35,
+        "type": "short_free_text",
+        "text": "An error is underlined in the sentence below. Write the correction in the box.",
+        "marks": 1,
+        "expected_answer": "haven't",
+        "marking_criteria": [
+          "Correct contraction of 'have not'."
+        ]
+      },
+      {
+        "number": 36,
+        "type": "multiple_choice",
+        "text": "Tick the two sentences where the subject and verb agree.",
+        "marks": 1,
+        "allow_multiple_select": true,
+        "options": [
+          {
+            "label": "A",
+            "text": "Many of my friends loves eating pizza.",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "Everyone is going to the library.",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "Children under 16 are not allowed to see this film.",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "The man live near the station.",
+            "is_correct": false
+          },
+          {
+            "label": "E",
+            "text": "Boys is sitting in the chair.",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 37,
+        "type": "select_words",
+        "text": "Circle the two nouns in the sentence below.",
+        "marks": 1,
+        "passage": "The boy reached carefully into his bag.",
+        "words_required": 2,
+        "correct_words": [
+          {
+            "position": 1,
+            "word": "boy"
+          },
+          {
+            "position": 2,
+            "word": "bag"
+          }
+        ]
+      },
+      {
+        "number": 38,
+        "type": "fill_in_blanks",
+        "text": "Complete the sentence below with a contraction that makes sense.",
+        "marks": 1,
+        "sentence_with_blanks": "I don\u2019t think ___________ going to come.",
+        "answers": [
+          {
+            "position": 1,
+            "text": "he\u2019s"
+          }
+        ]
+      },
+      {
+        "number": 39,
+        "type": "multiple_choice",
+        "text": "Which two of these sentences would be clearer with brackets to organise some of the information they contain?",
+        "marks": 1,
+        "allow_multiple_select": true,
+        "options": [
+          {
+            "label": "A",
+            "text": "The great white shark has been known to exceed 6 metres in length.",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "The two cars a red one and a blue one sped down the road.",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "Waves from the sea have the power to erode rocks over time.",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "A country with a mild climate has pleasant temperatures.",
+            "is_correct": false
+          },
+          {
+            "label": "E",
+            "text": "Jake a polite young man always holds open the door.",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "number": 40,
+        "type": "select_words",
+        "text": "Circle the connective in the sentence below.",
+        "marks": 1,
+        "passage": "When Adam tripped over a stone, he hurt his foot.",
+        "words_required": 1,
+        "correct_words": [
+          {
+            "position": 1,
+            "word": "When"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "questions": [
+      {
+        "number": 21,
+        "type": "multiple_choice",
+        "instructions": "Tick one word to complete the sentence below.",
+        "text": "Tick the words closest in meaning to: dispute",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "agreement, contract",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "achievement, prize",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "accident, mishap",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "argument, quarrel",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "number": 22,
+        "type": "matching_pairs",
+        "instructions": "Put a tick in each row to show how the apostrophe has been used in the sentence.",
+        "text": "One has been done for you.",
+        "marks": 1,
+        "left_items": [
+          "It doesn\u2019t go there.",
+          "We\u2019re cold.",
+          "Anita\u2019s coat is very warm.",
+          "Ruby\u2019s hair is brown.",
+          "I mustn\u2019t forget my homework."
+        ],
+        "right_items": [
+          "To replace a missing letter",
+          "To show something belongs to someone / something"
+        ],
+        "correct_pairs": [
+          {
+            "left": "It doesn\u2019t go there.",
+            "right": "To replace a missing letter"
+          },
+          {
+            "left": "We\u2019re cold.",
+            "right": "To replace a missing letter"
+          },
+          {
+            "left": "Anita\u2019s coat is very warm.",
+            "right": "To show something belongs to someone / something"
+          },
+          {
+            "left": "Ruby\u2019s hair is brown.",
+            "right": "To show something belongs to someone / something"
+          },
+          {
+            "left": "I mustn\u2019t forget my homework.",
+            "right": "To replace a missing letter"
+          }
+        ]
+      },
+      {
+        "number": 23,
+        "type": "short_free_text",
+        "instructions": "There is an error in the sentence below. Write the correction in the box.",
+        "text": "The confused cyclist weren\u2019t sure where to go.",
+        "marks": 1,
+        "expected_answer": "wasn\u2019t",
+        "marking_criteria": [
+          "Correctly identify the error in the sentence.",
+          "Provide the correct form of the verb."
+        ]
+      },
+      {
+        "number": 24,
+        "type": "select_words",
+        "instructions": "Circle all the adverbs in the sentence below.",
+        "text": "Close the windows firmly and securely lock the door.",
+        "marks": 1,
+        "passage": "Close the windows firmly and securely lock the door.",
+        "words_required": 2,
+        "correct_words": [
+          {
+            "position": 3,
+            "word": "firmly"
+          },
+          {
+            "position": 5,
+            "word": "securely"
+          }
+        ]
+      },
+      {
+        "number": 25,
+        "type": "select_words",
+        "instructions": "Circle the connective in the sentence below.",
+        "text": "We had to hurry because the bus was about to leave.",
+        "marks": 1,
+        "passage": "We had to hurry because the bus was about to leave.",
+        "words_required": 1,
+        "correct_words": [
+          {
+            "position": 4,
+            "word": "because"
+          }
+        ]
+      },
+      {
+        "number": 26,
+        "type": "multiple_choice",
+        "instructions": "Why is the comma used in the sentence below?",
+        "text": "Her mum said that the ducklings were cute, fluffy and very small.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "to introduce a piece of speech",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "to mark the clauses in the sentence",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "to divide the two halves of the sentence",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "to separate items in a list",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "number": 27,
+        "type": "multiple_choice",
+        "instructions": "Which two of these sentences have a capital letter missing?",
+        "text": "Tick two.",
+        "marks": 1,
+        "allow_multiple_select": true,
+        "options": [
+          {
+            "label": "A",
+            "text": "My favourite month of the year is february.",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "I have just finished reading Oliver Twist.",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "I went to see the doctor about my cough.",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "Corsica is a small island in the mediterranean Sea.",
+            "is_correct": true
+          },
+          {
+            "label": "E",
+            "text": "My family lives just north of the capital city.",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 28,
+        "type": "multiple_choice",
+        "instructions": "Which sentence is grammatically correct?",
+        "text": "Tick one.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "He starting the engine.",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "Ali is woke by the light from the window.",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "The baby was enjoying playing with his teddy bear.",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "Tony hope to see his grandma at the weekend.",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 29,
+        "type": "multiple_choice",
+        "instructions": "Tick the word that is similar in meaning to:",
+        "text": "abrupt",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "slow",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "seldom",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "often",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "sudden",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "number": 30,
+        "type": "rewrite_text",
+        "instructions": "Put the astronomer\u2019s words into direct speech.",
+        "text": "The astronomer said it was his ambition to discover as much as possible about our solar system.",
+        "marks": 2,
+        "original_text": "The astronomer said it was his ambition to discover as much as possible about our solar system.",
+        "instruction": "Transform the sentence into direct speech.",
+        "correct_rewrites": [
+          {
+            "original": "The astronomer said it was his ambition to discover as much as possible about our solar system.",
+            "rewrite": "\"It is my ambition to discover as much as possible about our solar system,\" said the astronomer."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "questions": [
+      {
+        "number": 11,
+        "type": "short_free_text",
+        "text": "The sentence below has two capital letters missing.\n\nyesterday, we went to see our friend, rita.\n\nCircle the two letters that should be capitals.\n\nExplain why each of these letters should be a capital.",
+        "instructions": "Circle the two letters that should be capitals and explain why.",
+        "marks": 2,
+        "expected_answer": [
+          "Y",
+          "R"
+        ],
+        "marking_criteria": [
+          "Y for the start of the sentence.",
+          "R for the proper noun 'Rita'."
+        ]
+      },
+      {
+        "number": 12,
+        "type": "multiple_choice",
+        "text": "Tick one word or phrase to complete the sentence below.\n\nThe audience watched in delight as the acrobats ________________ daring feats.",
+        "instructions": "Tick one.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "will perform",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "perform",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "performed",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "have performed",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 13,
+        "type": "fill_in_blanks",
+        "text": "Find one word that can complete both sentences below.\n\nI need to get some money from the ________________.\nDucks live on the river ________________.",
+        "instructions": "Write the word in the box.",
+        "marks": 1,
+        "sentence_with_blanks": "I need to get some money from the ________________. Ducks live on the river ________________.",
+        "answers": [
+          {
+            "position": 1,
+            "text": "bank"
+          },
+          {
+            "position": 2,
+            "text": "bank"
+          }
+        ]
+      },
+      {
+        "number": 14,
+        "type": "multiple_choice",
+        "text": "Which sentence contains two verbs?\n\nTick one.",
+        "instructions": "Tick one.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "The lambs played happily.",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "The cows sleep in the field.",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "The puppies growl and bark.",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "text": "The horses eat grass and hay.",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 15,
+        "type": "fill_in_blanks",
+        "text": "Complete the sentences below using a suitable connective from the boxes.\n\nUse each connective once.",
+        "instructions": "Use each connective once.",
+        "marks": 1,
+        "sentence_with_blanks": "She wasn't sure ________________ coat belonged to her. I like basketball ________________ they prefer tennis. He asked me ________________ I was interested in comedy films.",
+        "answers": [
+          {
+            "position": 1,
+            "text": "which"
+          },
+          {
+            "position": 2,
+            "text": "whereas"
+          },
+          {
+            "position": 3,
+            "text": "whether"
+          }
+        ]
+      },
+      {
+        "number": 16,
+        "type": "short_free_text",
+        "text": "Complete the sentence below with an adverb that makes sense.\n\nThe sun shone ________________ in the sky.",
+        "instructions": "Write an adverb in the blank.",
+        "marks": 1,
+        "expected_answer": [
+          "brightly",
+          "brilliantly"
+        ],
+        "marking_criteria": [
+          "Accept any appropriate adverb."
+        ]
+      },
+      {
+        "number": 17,
+        "type": "short_free_text",
+        "text": "Circle the connective in the sentence below.\n\nThe children played football until it was time for bed.",
+        "instructions": "Circle the connective.",
+        "marks": 1,
+        "expected_answer": "until",
+        "marking_criteria": [
+          "The connective 'until' should be circled."
+        ]
+      },
+      {
+        "number": 18,
+        "type": "rewrite_text",
+        "text": "Rewrite the sentence below, adding the missing exclamation mark.\n\n\"Get down now\" Mum yelled angrily.",
+        "instructions": "Add the missing exclamation mark.",
+        "marks": 1,
+        "original_text": "\"Get down now\" Mum yelled angrily.",
+        "instruction": "Add the missing exclamation mark.",
+        "correct_rewrites": [
+          {
+            "original": "\"Get down now\"",
+            "rewrite": "\"Get down now!\""
+          }
+        ]
+      },
+      {
+        "number": 19,
+        "type": "fill_in_blanks",
+        "text": "Circle the correct form of the verb in each set of brackets.\n\n( creeps / creep ) The cheetah ________________ after its prey.\n( produces / produce ) Skunks ________________ a very smelly spray that repels most predators.\n( protects / protect ) The mother bear ________________ her young.",
+        "instructions": "Circle the correct form of the verb.",
+        "marks": 1,
+        "sentence_with_blanks": "( creeps / creep ) The cheetah ________________ after its prey. ( produces / produce ) Skunks ________________ a very smelly spray that repels most predators. ( protects / protect ) The mother bear ________________ her young.",
+        "answers": [
+          {
+            "position": 1,
+            "text": "creeps"
+          },
+          {
+            "position": 2,
+            "text": "produce"
+          },
+          {
+            "position": 3,
+            "text": "protects"
+          }
+        ]
+      },
+      {
+        "number": 20,
+        "type": "multiple_choice",
+        "text": "Which sentence uses inverted commas correctly?\n\nTick one.",
+        "instructions": "Tick one.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "\"Mr Nelson asked, Who is responsible for the sports equipment?\"",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "Mr Nelson asked, \"Who is responsible for the sports equipment?\"",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "\"Mr Nelson asked,\" Who is responsible for the sports equipment?",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "Mr Nelson asked, \"Who is responsible for the sports equipment\"?",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "questions": [
+      {
+        "number": 41,
+        "type": "matching_pairs",
+        "text": "Put one letter in each box to show the word class.",
+        "instructions": "Match each word to its correct word class.",
+        "marks": 1,
+        "left_items": [
+          "The",
+          "lazy",
+          "lion",
+          "snored",
+          "noisily"
+        ],
+        "right_items": [
+          "noun",
+          "adverb",
+          "adjective",
+          "verb"
+        ],
+        "correct_pairs": [
+          {
+            "left": "The",
+            "right": "noun"
+          },
+          {
+            "left": "lazy",
+            "right": "adjective"
+          },
+          {
+            "left": "lion",
+            "right": "noun"
+          },
+          {
+            "left": "snored",
+            "right": "verb"
+          },
+          {
+            "left": "noisily",
+            "right": "adverb"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "type": "multiple_choice",
+        "text": "Tick the words that mean the opposite of: scarce",
+        "instructions": "Tick one.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "in short supply, rare",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "text": "plentiful, easy to find",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "text": "difficult, tricky",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "generous, kind",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "type": "short_free_text",
+        "text": "Insert a pair of commas in the sentence below to make the meaning clearer.",
+        "instructions": "Write the sentence with commas in the correct places.",
+        "marks": 1,
+        "expected_answer": "Computer games, which can be fun to play, are also very time-consuming.",
+        "marking_criteria": [
+          "Commas must be placed correctly around the clause 'which can be fun to play'."
+        ]
+      },
+      {
+        "number": 44,
+        "type": "select_words",
+        "text": "Circle the verb that shows the past tense in each sentence below.",
+        "instructions": "Circle the correct verb.",
+        "marks": 1,
+        "passage": "On holiday, we were very happy on the beach. The journey was rather too long for me. The weather in Spain is usually hot and sunny, though one day it rained a lot.",
+        "words_required": 3,
+        "correct_words": [
+          {
+            "position": 3,
+            "word": "were"
+          },
+          {
+            "position": 8,
+            "word": "was"
+          },
+          {
+            "position": 19,
+            "word": "rained"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "type": "multiple_choice",
+        "text": "Which sentence uses capital letters correctly?",
+        "instructions": "Tick one.",
+        "marks": 1,
+        "allow_multiple_select": false,
+        "options": [
+          {
+            "label": "A",
+            "text": "On Tuesday, children from Millmount School went to a museum.",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "text": "On tuesday, children from Millmount School went to a museum.",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "text": "On Tuesday, children from millmount School went to a museum.",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "text": "On Tuesday, children from Millmount School went to a Museum.",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "number": 46,
+        "type": "short_free_text",
+        "text": "Some words have been underlined in the sentence below. Use a contraction to replace the underlined words.",
+        "instructions": "Write the sentence using a contraction.",
+        "marks": 1,
+        "expected_answer": "My mum promised she'd help me with my homework.",
+        "marking_criteria": [
+          "The contraction 'she'd' must be used correctly."
+        ]
+      }
+    ]
+  }
+]

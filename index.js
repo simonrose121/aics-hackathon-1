@@ -3,6 +3,12 @@ const OpenAI = require('openai');
 const { BedrockRuntimeClient, InvokeModelCommand } = require("@aws-sdk/client-bedrock-runtime");
 require('dotenv').config()
 
+const fs = require('fs');
+
+const data = fs.readFileSync('./combined_2013.json', 'utf8');
+const jsonData = JSON.parse(data);
+
+
 const openAIClient = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY, // This is the default and can be omitted
 });
@@ -153,7 +159,24 @@ async function main() {
     Structure it as an exam-style format, including multiple-choice, short-answer, and applied-writing questions.`
 
   const csPrompt = `
+      Generate practice SATs exam questions for key stage 2 English grammar punctuation and spelling questions based on the following the Standards and Testing Agency guidance:
+      ${JSON.stringify(sta.results)}
+
+      Focusing specifically on the 'content' fields of the elements, and ensuring that the questions are designed to help students prepare for the SATs exams.
+
+      To meet the following National Curriculum standards:
+      ${JSON.stringify(nc.results)}
+
+      Focusing on the 'content' fields of the elements, and taxonomies that are relevant to grammar, punctuation and spelling.
+
+      Structure it as an exam-style format, including multiple-choice, short-answer, and applied-writing questions.
+  `;
+
+  const csWithExamplesPrompt = `
       Generate practice SATs exam questions for key stage 2 English grammar punctuation and spelling questions based on the following content:
+      ${JSON.stringify(jsonData)}
+
+      For the Standards and Testing Agency guidance:
       ${JSON.stringify(sta.results)}
 
       Focusing specifically on the 'content' fields of the elements, and ensuring that the questions are designed to help students prepare for the SATs exams.
@@ -176,8 +199,13 @@ async function main() {
   console.log(contentStoreResponse);
   console.log("-------------------------------------")
 
+  console.log("-------USING CONTENT STORE AND EXAMPLES-------")
+  const contentWithExamplesStoreResponse = await chatCompletion(csWithExamplesPrompt)
+  console.log(contentWithExamplesStoreResponse);
+  console.log("-------------------------------------")
+
   const comparisonPromptUsingCS = `
-      Evaluate and compare these two sets of questions for key stage 2 English grammar, punctuation and spelling practice SATs exams.
+      Evaluate and compare these sets of questions.
 
       Identify any gaps in coverage and provide suggestions for improvement based on the Standards and Testing Agency guidance:
       ${JSON.stringify(sta.results)}
@@ -187,56 +215,59 @@ async function main() {
 
       Score them both out of 100 for:
       - Coverage of the National Curriculum for English grammar, punctuation and spelling for years 5 and 6, focusing on the 'content' field of the elements.
-      - Specific elements of the Standards and Testing Agency guidance, focusing on the elements with content_domain_references of G1 to G7.
+      - Aligned with the word, sentence, and text level objectives for grammar, punctuation, and spelling in the National Curriculum.
+      - Does it make reference to the spelling appendix for the National Curriculum?
+      - Specific elements of the Standards and Testing Agency guidance, focusing on the elements with 'content_domain_references' field of G1.* to G7.* and S*.
 
       Your justification should be concise, precise, and directly support your evaluation.
 
       And give a total average score.
 
-      Present it in a table with 2 rows and 2 columns, with the first row being the Option A and the second row being Option B and the respective average scores in the second column. Do not include an average score row in this table.
+      Present it in a table with 3 rows and 2 columns, with the first row being the Option A and the second row being Option B and the third row being Option C and the respective average scores in the second column. Do not include an average score row in this table.
 
-      Option A
-      ${contentStoreResponse}
-
-      Option B
+      Option C
       ${notContentStoreResponse}
 
-      Now go back and evaluate your own reasoning and reevaluate the scores, presenting them in the same table format.
+      Option B
+      ${contentStoreResponse}
+
+      Option A
+      ${contentWithExamplesStoreResponse}
     `
 
   console.log("-------COMPARISON USING CS-------")
   console.log(await chatCompletion(comparisonPromptUsingCS));
   console.log("-------------------------------------")
 
-  const comparisonPromptNotUsingCS = `
-    Evaluate and compare these two sets of questions for key stage 2 English grammar, punctuation and spelling practice SATs exams.
+  // const comparisonPromptNotUsingCS = `
+  //   Evaluate and compare these two sets of questions for key stage 2 English grammar, punctuation and spelling practice SATs exams.
 
-    Identify any gaps in coverage and provide suggestions for improvement based on the Standards and Testing Agency guidance.
+  //   Identify any gaps in coverage and provide suggestions for improvement based on the Standards and Testing Agency guidance.
 
-    And the National Curriculum standards for Key Stage 2 English grammar, punctuation and spelling.
+  //   And the National Curriculum standards for Key Stage 2 English grammar, punctuation and spelling.
 
-    Score them both out of 100 for:
-    - Coverage of the National Curriculum for English grammar, punctuation and spelling for years 5 and 6.
-    - Specific elements of the Standards and Testing Agency guidance.
+  //   Score them both out of 100 for:
+  //   - Coverage of the National Curriculum for English grammar, punctuation and spelling for years 5 and 6.
+  //   - Specific elements of the Standards and Testing Agency guidance.
 
-    Your justification should be concise, precise, and directly support your evaluation.
+  //   Your justification should be concise, precise, and directly support your evaluation.
 
-    And give a total average score.
+  //   And give a total average score.
 
-    Present it in a table with 2 rows and 2 columns, with the first row being the Option A and the second row being Option B and the respective average scores in the second column. Do not include an average score row in this table.
+  //   Present it in a table with 2 rows and 2 columns, with the first row being the Option A and the second row being Option B and the respective average scores in the second column. Do not include an average score row in this table.
 
-    Option A
-    ${contentStoreResponse}
+  //   Option A
+  //   ${contentStoreResponse}
 
-    Option B
-    ${notContentStoreResponse}
+  //   Option B
+  //   ${notContentStoreResponse}
 
-    Now go back and evaluate your own reasoning and reevaluate the scores, presenting them in the same table format.
-  `
+  //   Now go back and evaluate your own reasoning and reevaluate the scores, presenting them in the same table format.
+  // `
 
-  console.log("-------COMPARISON NOT USING CS-------")
-  console.log(await chatCompletion(comparisonPromptNotUsingCS));
-  console.log("-------------------------------------")
+  // console.log("-------COMPARISON NOT USING CS-------")
+  // console.log(await chatCompletion(comparisonPromptNotUsingCS));
+  // console.log("-------------------------------------")
 }
 
 main();
